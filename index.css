@@ -1,0 +1,166 @@
+
+P {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+.melfont, .melissafont {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+h1, .descr, .descrp {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    color: white;
+    background-color: black;
+}
+
+.cabecalho {
+    background-color: #272525;
+    border-radius: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+}
+
+.fsettitulo, .fset, .fsetinfo, .fsetabelacores, .fsetextrainfo, .fsetfotosevo, .fsetsizes, .fsetstats {
+    border-radius: 40px;
+}
+
+.legenda{
+    background-color: #272525;
+    border-radius: 40px;
+    margin-left: 650px;
+    margin-right: 650px;
+    text-align: center;
+}
+
+.form {
+    background-color: #272525;
+    border-radius: 40px;
+    margin-left: 800px;
+    margin-right: 800px;
+    text-align: center;
+}
+
+.mel {
+    background-color: #272525;
+    border-radius: 40px;
+    margin-left: 750px;
+    margin-right: 750px;
+    text-align: center;
+}
+
+.melfotocenter {
+    text-align: center;
+}
+
+.melfoto {
+    border-radius: 50%;
+    border: 7px solid #272525;
+}
+
+.textomel {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.listamel {
+    margin-left: 655px;
+    margin-right: 655px;
+}
+
+.numbermel {
+    background-color: #272525;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.descricaomel {
+    text-align: center;
+}
+
+.infomel {
+    background-color: #272525;
+    margin-left: 650px;
+    margin-right: 650px;
+    border-radius: 40px;
+}
+
+.statsmel {
+    background-color: #272525;
+    margin-left: 650px;
+    margin-right: 650px;
+    border-radius: 40px;
+}
+
+.extrainfo {
+    background-color: #272525;
+    margin-left: 825px;
+    margin-right: 825px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.evo {
+    background-color: #272525;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.fotosevo {
+    background-color: #272525;
+    border-radius: 40px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.lvl1, .lvl16, .lvl32, .mega {
+    border-radius: 40px;
+    border: solid 3px #a9a9a9;
+}
+
+.plvl1 {
+    background-color: white;
+    border-radius: 40px;
+    color: black;
+}
+
+.guiaderaca {
+    background-color: #272525;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.tabelatamanho {
+    background-color: #272525;
+    border-radius: 40px;
+    margin-left: 650px;
+    margin-right: 650px;
+}
+
+.tabelacores {
+    background-color: #272525;
+    margin-left: 700px;
+    margin-right: 700px;
+    border-radius: 40px;
+}
+
+.avaliacao {
+    background-color: #272525;
+    border-radius: 40px;
+    margin-left: 650px;
+    margin-right: 650px;
+    border: solid #a9a9a9 2px ;
+}

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo Frontend</title>
+    <link rel="stylesheet" href="index.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="cabecalho">
+    <fieldset class="fsettitulo">    
+        <h1>Aprendendo sobre Desenvolvimento Web</h1>
+        <h2 class ="descr">Esta página é puramente dedicada a testes voltados ao aprendizado da area de TI, especificadamente voltado
+         ao desenvolvimento web</h2>
+        <p class="descrp"><u>OBS</u>: Qualquer <del>merda</del><ins><sub>besteira</sub></ins> escrita por este autor <del>de bosta</del>
+        <ins><sub>imcompetente</sub></ins> deve ser completamente <u>ignorada</u>.</p>
+    </fieldset>    
+    </header>
+    <div class="legenda">
+        <p>Para melhor conhecimento dos meus leitores, preencha o formulário abaixo (Opcional): </p>
+    </div>
+    <div class="form">
+        <form action="testeformulario.html">
+            <fieldset class="fset">
+                <legend>Informações do leitor</legend>
+                <label for="nome">Nome:<br></label>
+                <input type="text" id="nome" name="nome"><br>
+                <label for="datadeaniversario">Data de aniversário:<br></label>
+                <input type="date" id="datadeaniversario" name="datadeaniversario"><br>
+                <label for="cidade">Cidade onde mora:<br></label>
+                <input type="text" id="cidade" name="cidade"><br>
+                <label for="email">E-mail:<br></label>
+                <input type="email" id="email" name="email"><br>
+                <label for="navegador">Navegador:<br></label>
+                <input list="navegadores" id="navegador" name="navegador">
+                <datalist id="navegadores">
+                    <option value="Chrome">Chrome</option>
+                    <option value="Internet Explorer">Internet Explorer</option>
+                    <option value="Microsoft Edge">Microsoft Edge</option>
+                    <option value="Vivaldi">Vivaldi</option>
+                    <option value="Aurora Browser">Aurora Browser</option>
+                    <option value="Comodo Dragon">Comodo Dragon</option>
+                    <option value="Dolphin Browser">Dolphin Browser</option>
+                    <option value="Firefox">Firefox</option>
+                    <option value="Opera">Opera</option>
+                    <option value="Safari">Safari</option>
+                    <option value="UC Browser">UC Browser</option>
+                </datalist>
+                <br>
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </div>
+    <br><br><br>
+    <main>
+        <div class="mel"> 
+            <h2 class="melfont"><3 Mel, the cutest dog forever <3</h2>
+        </div>
+        <div class="melfotocenter">
+            <figure>
+                <img src="mel.jpg" class="melfoto" title="Melzinha do grau, a sensação de ouro preto" alt="Ocorreu algum problema e infelizmente você não podera ver melzinha :(" style="width: 20%;"><br>
+                <figurecaption class="melissafont">Melissa Lupus Familiaris</figurecaption>
+            </figure>
+        </div>
+        <div class="textomel">
+        <p>
+            Melissa, também conhecida como <a href="https://pt.wikipedia.org/wiki/Mel">Mel</a>, é uma cadelinha dócil moradora do bairro de <a href="https://pt.wikipedia.org/wiki/Ouro_Preto_(Olinda)">Ouro Preto</a> em <a href="https://pt.wikipedia.org/wiki/Olinda">Olinda</a> Mel nasceu em 11/12/2011, tendo assim 12 anos de idade. É a ultima da linhagem Melissa lupus familiares, espécie essa compreendida
+            como a <a href="https://pt.wikipedia.org/wiki/Evolu%C3%A7%C3%A3o">Evolução</a> dos famosos <a href="https://pt.wikipedia.org/wiki/C%C3%A3o">Canis lupus Familiaris</a> popularmente conhecidos como "Auau". Pode-se capturar exemplares selvagens dessa espécie nas terras da <a href="https://pt.wikipedia.org/wiki/Fran%C3%A7a">França</a> e da <a href="https://pt.wikipedia.org/wiki/Alemanha">Alemanha</a>. Todo Melissa lupus 
+            familiaris era do tipo <a href="https://pt.wikipedia.org/wiki/%C3%81gua">Água</a>, porém, os exemplares mais recentes apresentam uma migração do tipo água para o tipo normal com caracteristicas sonolentas e pacíficas. As principais 
+            caracteristicas da <a href="https://pt.wikipedia.org/wiki/Esp%C3%A9cie">Espécie</a> são: 
+        </p>
+        </div>
+        <div class="listamel">
+        <ul>
+            <li>Amam comer <a href="https://pt.wikipedia.org/wiki/Frango">Frango</a> e Doce de <a href="https://pt.wikipedia.org/wiki/Amendoim">Amendoim</a></li>
+            <li>Amam receber <a href="https://pt.wikipedia.org/wiki/Carinho">Carinho</a> na barriga</li>
+            <li>Amam <a href="https://pt.wikipedia.org/wiki/Passeador_de_c%C3%A3es">Passear</a></li>
+            <li>Tem a <a href="https://pt.wikipedia.org/wiki/Mania">Mania</a> de lamber o <a href="https://pt.wikipedia.org/wiki/Vento">Vento</a></li>
+            <li>Costumam chamar a <a href="https://pt.wikipedia.org/wiki/Aten%C3%A7%C3%A3o">Atenção</a> deitando de barriga para cima batendo as patinhas</li>
+            <li>Costumam deitar no <a href="https://pt.wikipedia.org/wiki/P%C3%A9">Pé</a> das <a href="https://pt.wikipedia.org/wiki/Humano">Pessoas</a> (Principalmente nos pés de seu treinador)</li>
+            <li><a href="https://pt.wikipedia.org/wiki/Sono">Dormem</a> de 10 à 12 <a href="https://pt.wikipedia.org/wiki/Hora">Horas</a> por <a href="https://pt.wikipedia.org/wiki/Dia">Dia</a></li>
+            <li>Tem um <a href="https://pt.wikipedia.org/wiki/Penteado">Penteado</a> caracteristico</li>
+        </ul>
+        </div>
+        <br>
+        <div class="numbermel">
+        <h3>Melissa N° 0506</h3>
+        </div>
+        <div class="descricaomel"> 
+        <p>This <a href="https://pt.wikipedia.org/wiki/Pok%C3%A9mon">Pokémon</a> is quite lazy but very soft and gentle, when it is not sleeping it is always asking for attention and affection.</p>
+        </div>
+        <div class="infomel">
+        <center>
+        <fieldset class="fsetinfo">
+        <table border="2px" width="500">
+            <caption>Info</caption>
+            <thead>
+                <tr>
+                    <th>Height</th>
+                    <th>Weight</th>
+                    <th>Gender</th>
+                    <th>Category</th>
+                    <th>Abilities</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><center>0.4 m</center></td>
+                    <td><center>12kg</center></td>
+                    <td><center>Female</center></td>
+                    <td><center>Cuteness</center></td>
+                    <td><center>Bite</center></td>
+                </tr>
+            </tbody>
+        </table>
+        </fieldset>
+        </center>
+        </div>
+        <br><br>
+        <div class="statsmel">
+        <center>
+        <fieldset class="fsetstats">
+        <table border="2px" width="500">
+            <caption>Stats</caption>
+            <thead>
+                <tr>
+                    <th>Hp</th>
+                    <th>Attack</th>
+                    <th>Defence</th>
+                    <th>Special Attack</th>
+                    <th>Special Defence</th>
+                    <th>Speed</th>
+                    <th>Cuteness</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><center>3<b>/</b>15</center></td>
+                    <td><center>1<b>/</b>15</center></td>
+                    <td><center>2<b>/</b>15</center></td>
+                    <td><center>2<b>/</b>15</center></td>
+                    <td><center>3<b>/</b>15</center></td>
+                    <td><center>4<b>/</b>15</center></td>
+                    <td><center>17<b>/</b>15</center></td>
+                </tr>
+            </tbody>
+        </table>
+        </fieldset>
+        </center>
+        </div>
+        <br>
+        <div class="extrainfo">
+        <fieldset class="fsetextrainfo">
+        <p>Type: Normal</p>
+        <p>Weaknesses: Water</p>
+        <p>Trainer: Batata Filósofa</p>
+        </fieldset>
+        </div> 
+        <br>
+        <div class="evo">
+        <h3>Evoluções</h3>
+        </div>
+        <div class="fotosevo">
+        <fieldset class="fsetfotosevo">
+        <center>
+            <table>
+                <thead>
+                    <tr>
+                        <th>                            
+                            <figure>
+                                <img class="lvl1" src="poodlerecemnascido591.jpg" title="Melissa Lvl 1" style="width: 80%;">   
+                                <figurecaption>Melissa Lvl 1</figurecaption>
+                            </figure>
+                            <p class="plvl1"> Filhote recém-nascido nem late mano,<br> só chora.</p>                             
+                        </th>
+                        <th>                            
+                            <figure>
+                                <img class="lvl16" src="poodlefilhote.jpg" title="Melissa Lvl 16" style="width: 50%;"><br>
+                                <figurecaption>Melissa Lvl 16</figurecaption>
+                            </figure>
+                            <audio src="latidopoodletoy.wav" type="audio/wav" controls controlsList="nodownload"></audio>                                
+                        </th>
+                        <th>                            
+                            <figure>
+                                <img class="lvl32" src="meladulta591.jpg" title="Melissa Lvl 32" style="width: 50%;"><br>
+                                <figurecaption>Melissa Lvl 32</figurecaption>
+                            </figure>
+                            <audio src="latidopoodlemini.wav" type="audio/wav" controls controlslist="nodownload"></audio>                            
+                        </th>
+                        <th>
+                            <figure>
+                                <img class="mega" src="melmegaevolucao591.jpg" title="Melissa Megaevolution" style="width: 50%;"><br>
+                                <figurecaption>Melissa Megaevolution</figurecaption>
+                            </figure>
+                            <audio src="latidopoodlestandart.wav" type="audio/wav" controls controlslist="nodownload"></audio>
+                        </th>
+                    </tr>
+                </thead> 
+            </table>
+        </center>
+        </div>
+        </fieldset>
+    </main>
+    <main>
+        <h3 class="guiaderaca">Poodle - Guia de raça</h3>
+        <center><p>A raça <a href="https://pt.wikipedia.org/wiki/Poodle">Poodle</a> tem origem na Alemanha e possuem três tipos de porte definidos:</p></center>
+        <div class="tabelatamanho">
+        <center>
+        <fieldset class="fsetsizes">
+        <table border="2px">
+            <caption>Sizes</caption>
+            <thead>
+                <tr>
+                    <th>Toy</th>
+                    <th>Mini</th>
+                    <th>Standart</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><center>Pequeno</center></td>
+                    <td><center>Médio</center></td>
+                    <td><center>Grande</center></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td><center>25cm (max)</center></td>
+                    <td><center>25cm - 38cm</center></td>
+                    <td><center>38cm - 60cm</center></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td><center>1,8kg - 2,7kg</center></td>
+                    <td><center>4,5kg - 6,8kg</center></td>
+                    <td><center>22kg - 31kg</center></td>
+                </tr>
+            </tbody>    
+        </table>
+        </fieldset> 
+        </center>
+        </div>
+        <center><p><u><b>OBS:</b></u> O poodle Micro não é reconhcido oficialmente na raça.</p></center>
+        <center>
+        <p>A <a href="https://pt.wikipedia.org/wiki/Esperan%C3%A7a_de_vida">Expectativa de Vida</a> dos Poodles é em média de 10 à 18 anos, expectativa essa que é igual para os três tipos de porte. O espaço necessário para o Poodle vai variar em relação ao seu porte,
+            porém,<br> geralmente todos os tamanhos se <a href="https://pt.wikipedia.org/wiki/Adapta%C3%A7%C3%A3o_(biologia)">Adaptam</a> muito bem à <a href="https://pt.wikipedia.org/wiki/Apartamento">Apartamentos</a>.<br>
+            As <a href="https://pt.wikipedia.org/wiki/Cor">Cores</a> da sua <a href="https://pt.wikipedia.org/wiki/Pelo">Pelagem</a> podem ser:
+        </p>
+        </center>
+        
+        <div class="tabelacores">
+        <center>
+        <fieldset class="fsetabelacores">    
+        <table border="2px">
+        <caption>Cores</caption>
+            <thead>
+                <tr>
+                    <th><a href="https://pt.wikipedia.org/wiki/Branco">Branco</a></th> 
+                    <th><a href="https://pt.wikipedia.org/wiki/Preto">Preto</a></th> 
+                    <th><a href="https://pt.wikipedia.org/wiki/Cinza">Cinza</a></th> 
+                    <th><a href="https://pt.wikipedia.org/wiki/Marrom">Marrom/Damasco</a></th> 
+                    <th><a href="https://pt.wikipedia.org/wiki/Bege">Bege/Champagne</a></th>
+                </tr> 
+            </thead>
+            <tbody>
+                <tr>
+                    <td><center>Shine</center></td>
+                    <td><center>Shadow</center></td>
+                    <td><center>Normal</center></td>
+                    <td><center>Normal</center></td>
+                    <td><center>Normal</center></td>
+                </tr>
+            </tbody>
+        </table>
+        </fieldset>
+        </center>
+        </div>
+        </div>
+        <center>
+        <p>Sua pelagem é <a href="https://www.dicio.com.br/longo/">Longa</a>, <a href="https://www.dicio.com.br/macio/">Macia</a> e <a href="https://www.dicio.com.br/enrolado/">Enrolada</a>, necessitando assim de duas a três <a href="https://www.dicio.com.br/escovar/">Escovações</a> na semana. O pelo do Poodle tem sua caracteristica de não <a href="https://www.dicio.com.br/cair/">Cair</a> e por isso é considerador o cachorro
+            <a href="https://www.dicio.com.br/perfeito/">Perfeito</a> para pessoas <a href="https://pt.wikipedia.org/wiki/Alergia">Alérgicas</a>.<br> Seu pelo também tem a característica de não parar de <a href="https://www.dicio.com.br/crescer/">Crescer</a>, necessitando assim de uma <a href="https://www.dicio.com.br/tosar/">Tosa</a> regular. Os <a href="https://pt.wikipedia.org/wiki/Banho">Banhos</a> podem ser dados de 15 em 15 dias podendo
+            ser necessária a tosa <a href="https://pt.wikipedia.org/wiki/M%C3%AAs">Mensal</a>. As <a href="https://pt.wikipedia.org/wiki/Unha">unhas</a> devem ser aparadas regularmente como a <a href="https://pt.wikipedia.org/wiki/Maioria">Maioria</a> dos cachorros.<br> A espécie tem sua característica de adaptar-se muito bem a qualquer tipo de <a href="https://pt.wikipedia.org/wiki/Clima">Clima</a>.
+            O Poodle é um cão muito carinhoso com a <a href="https://pt.wikipedia.org/wiki/Familia">Família</a>, tem um grande <a href="https://pt.wikipedia.org/wiki/Instinto">Instinto</a> de <a href="https://www.dicio.com.br/proteger/">Proteção</a> e ama ficar grudado nas pessoas e por isso não fica muito bem <a href="https://pt.wikipedia.org/wiki/Solid%C3%A3o">Sozinho</a>.<br><br>
+            <u><b>OBS:</u> O autor ficou com peguiça de digitar o resto e deixou a fonte de onde foi retirada toda essa informação logo abaixo :)</b>
+        </p>
+        </center>
+        <center>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1yQ2P1DbdeU?si=Awssu5K3gXcR4bYZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </center>
+    </main>
+    <br><br><br>
+        <div class="avaliacao"><br>
+            <footer>    
+                <center>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>
+                                    <form action="testeformulario.html">
+                                        <fieldset>
+                                            <legend>Avalie a Estrutura da Página:</legend>
+                                            <input type="radio" id="bom" name="radio">
+                                            <label for="bom">Bom</label><br>
+                                            <input type="radio" id="mediocre" name="radio">
+                                            <label for="mediocre">Medíocre</label><br>
+                                            <input type="radio" id="ruim" name="radio">
+                                            <label for="ruim">Ruim</label><br>
+                                            <input type="radio" id="pessimo" name="radio">
+                                            <label for="pessimo">Péssimo</label><br>
+                                            <input type="radio" id="coco" name="radio">
+                                            <label for="coco">Um cocô</label><br>
+                                            <input type="radio" id="mal" name="radio">
+                                            <label for="mal">Me fez mal</label><br>
+                                            <input type="radio" id="mata" name="radio">
+                                            <label for="mata">Se mata seu inútil</label><br>
+                                        </fieldset>
+                                </th>
+                                <th>
+                                    </form>
+                                    <fieldset>
+                                    <legend>Deixe aqui sua crítica desconstrutiva:</legend>
+                                    <textarea style="resize: none" rows="7">
+                                    </textarea>
+                                    </fieldset>
+                                </th>    
+                            </tr>
+                        </thead>    
+                    </table>
+                </center>    
+            <br>      
+        </div>
+    <div>
+        <br>
+        <center>
+            <a href="https://www.instagram.com/pernambucoposting/" target="_blank">
+                <img src="logoinsta1008.jpg" alt="Instagram" style="width: 1.8%;">
+            </a>
+            <a href="https://twitter.com/_natanael666" target="_blank">
+                <img src="logo x.avif" alt="Twitter" style="width: 2%;">
+            </a>
+            <a href="https://www.youtube.com/@Andrezitos" target="_blank">
+                <img src="youtubelogo.jpg" alt="Youtube" style="width: 2%;">
+            </a>
+        </center>    
+    </div>    
+    </footer>
+</body>
+</html>
